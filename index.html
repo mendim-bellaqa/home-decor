@@ -10,21 +10,6 @@
                     body {
                               font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
                     }
-
-                    .glass-button {
-                              background: rgba(255, 255, 255, 0.25);
-                              backdrop-filter: blur(10px);
-                              -webkit-backdrop-filter: blur(10px);
-                              border: 1px solid rgba(255, 255, 255, 0.3);
-                              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-                              transition: all 0.3s ease;
-                              color: #ffffff;
-                    }
-
-                    .glass-button:hover {
-                              background: rgba(255, 255, 255, 0.35);
-                              transform: scale(1.05);
-                    }
           </style>
 </head>
 
@@ -35,167 +20,55 @@
                     <p class="text-center text-slate-300 text-lg mb-12">Discover the trendiest home decor items to
                               transform your space!</p>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                              <!-- Product 1: Cloud Sofa -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Cloud Sofa</h2>
-                                                  <p class="text-slate-400 mt-2">Plush, oversized sofa for ultimate
-                                                            comfort and style.</p>
-                                                  <a href="[homiodecor.com/products/cloud-sofa]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
+                    <div class="max-w-4xl mx-auto">
+                              <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                                        <!-- Product 1: Sugar Defender -->
+                                        <div
+                                                  class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out flex flex-col">
+                                                  <img src="https://sugardefender24.com/assets/img/2bootle-fruits.webp"
+                                                            alt="Sugar Defender Product"
+                                                            class="w-full h-48 object-contain">
+                                                  <div class="p-6 text-center flex flex-col flex-grow">
+                                                            <div class="flex-grow">
+                                                                      <h2 class="text-xl font-bold text-white">Sugar
+                                                                                Defender</h2>
+                                                                      <p class="text-slate-400 mt-2 text-sm">Claim your
+                                                                                Discounted Sugar Defender Below While
+                                                                                Stock Lasts Relaxation & stress Relief
+                                                                                Of Professional</p>
+                                                            </div>
+                                                            <div class="mt-6">
+                                                                      <a href="https://sugardefender24.com/d/order-now.php#aff=moremoneytosave"
+                                                                                target="_blank"
+                                                                                class="inline-block bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold px-8 py-2 rounded-full transition-colors duration-300">Shop
+                                                                                Now</a>
+                                                            </div>
+                                                  </div>
                                         </div>
-                              </div>
 
-                              <!-- Product 2: Cashmere Throw Blanket -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Cashmere Throw Blanket</h2>
-                                                  <p class="text-slate-400 mt-2">Soft, luxurious blanket for a cozy
-                                                            aesthetic.</p>
-                                                  <a href="[homiodecor.com/products/cashmere-throw-blanket]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 3: Bubble Ball Tissue Box -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Bubble Ball Tissue Box</h2>
-                                                  <p class="text-slate-400 mt-2">Quirky, decorative tissue holder for
-                                                            any room.</p>
-                                                  <a href="[homiodecor.com/products/creative-ball-shaped-tissue-box]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 4: Pierre Jeanneret Japandi Chair -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Pierre Jeanneret Japandi
-                                                            Chair</h2>
-                                                  <p class="text-slate-400 mt-2">Minimalist chair for modern interiors.
-                                                  </p>
-                                                  <a href="[homiodecor.com/products/pierre-jeanneret-japandi-chair]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 5: Egg Style Lazy Chair -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Egg Style Lazy Chair</h2>
-                                                  <p class="text-slate-400 mt-2">Unique leather chair for ultimate
-                                                            relaxation.</p>
-                                                  <a href="[homiodecor.com/products/egg-style-leather-lazy-chair]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 6: Large Wabi Sabi Table Lamp -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Large Wabi Sabi Table Lamp
-                                                  </h2>
-                                                  <p class="text-slate-400 mt-2">Aesthetic mushroom-shaped lamp for
-                                                            ambiance.</p>
-                                                  <a href="[homiodecor.com/products/large-mushroom-table-lamp]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 7: Wavy Mirror -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Wavy Mirror</h2>
-                                                  <p class="text-slate-400 mt-2">LED-lit, frameless mirror for modern
-                                                            spaces.</p>
-                                                  <a href="[homiodecor.com/products/led-light-wavy-vanity-mirror]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 8: Small Teddy Low Stool -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Small Teddy Low Stool</h2>
-                                                  <p class="text-slate-400 mt-2">Cozy, plush stool for decorative
-                                                            seating.</p>
-                                                  <a href="[homiodecor.com/products/small-teddy-low-stool]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 9: Glass Ball Wall Light -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Glass Ball Wall Light</h2>
-                                                  <p class="text-slate-400 mt-2">Elegant, modern wall lighting solution.
-                                                  </p>
-                                                  <a href="[homiodecor.com/products/glass-ball-wall-light]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
-                                        </div>
-                              </div>
-
-                              <!-- Product 10: Luxury Button Tufted Bar Stool -->
-                              <div
-                                        class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80"
-                                                  alt="Cashmere Throw Blanket" class="w-full h-48 object-cover">
-                                        <div class="p-6 text-center">
-                                                  <h2 class="text-xl font-bold text-white">Luxury Button Tufted Bar
-                                                            Stool</h2>
-                                                  <p class="text-slate-400 mt-2">Stylish, high-end bar stool for dining
-                                                            areas.</p>
-                                                  <a href="[homiodecor.com/products/industrial-dining-chair]([invalid url, do not cite])"
-                                                            target="_blank"
-                                                            class="glass-button text-white px-6 py-3 rounded-full mt-6 block mx-auto mb-10">Shop
-                                                            Now</a>
+                                        <!-- Product 2: CelluCare -->
+                                        <div
+                                                  class="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out flex flex-col">
+                                                  <img src="https://getcellucare.com/assets/img/hero-img.png"
+                                                            alt="CelluCare Product" class="w-full h-48 object-contain">
+                                                  <div class="p-6 text-center flex flex-col flex-grow">
+                                                            <div class="flex-grow">
+                                                                      <h2 class="text-xl font-bold text-white">CelluCare
+                                                                      </h2>
+                                                                      <p class="text-slate-400 mt-2 text-sm">CELLUCARE
+                                                                                helps support your blood sugar goals and
+                                                                                the body’s natural ability to stay
+                                                                                healthy while improving energetic
+                                                                                well-being, combating fatigue, and
+                                                                                increasing vitality.</p>
+                                                            </div>
+                                                            <div class="mt-6">
+                                                                      <a href="https://cellucarehq.com/d/order-now.php#aff=moremoneytosave"
+                                                                                target="_blank"
+                                                                                class="inline-block bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold px-8 py-2 rounded-full transition-colors duration-300">Shop
+                                                                                Now</a>
+                                                            </div>
+                                                  </div>
                                         </div>
                               </div>
                     </div>
